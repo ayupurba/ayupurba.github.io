@@ -1,0 +1,100 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-right: 20px solid  white;
+  border-bottom: 10px solid  white;
+  float: left;
+}
+
+#posisi{
+  padding-left: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dropbtn {
+  color: black;
+  background-color:white;
+  padding: 16px;
+  font-size: 16px;
+  border: 0px none;
+  text-decoration: none;
+}
+
+.dropdown {
+  color: black;
+  position: relative;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.dropdown-content {
+  color: black;
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.ayu{
+  text-decoration: none;
+  font-family:sans-serif;
+  color: black;
+}
+
+.ayu:hover{
+  text-decoration: none;
+  border-top: 4px skyblue;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+h1{
+  position: relative;
+  top: 30px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color:skyblue;
+  font-size: 80px;
+  z-index: -1;
+}
+
+.gambar{
+  position: relative;
+  top: 60px;
+  z-index: -1;
+}
+
+table {
+  position: relative;
+  top: 90px;
+  left: 45px;
+  width: 100%;
+  z-index: -1;
+}
+
+th, td {
+  text-align: left;
+  
+}
+header{ 
+  background-color:lightskyblue;
+  padding: 30px;
+  position: sticky;
+}

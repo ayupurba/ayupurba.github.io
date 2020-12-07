@@ -1,0 +1,72 @@
+.dropbtn {
+    background-color: white;
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightseagreen;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color:gainsboro ;}
+header{ 
+      background-color: lightskyblue ;
+      padding: 30px;
+      position: sticky;
+  }
+  .logo5{
+    position: relative;
+    widows: 200px;
+    height: 200px;
+    top:150px;
+    left:100px;
+  }
+  .teks6{
+    text-align: center;
+    position: relative;
+    bottom:70px;
+  }
+  .teks7{
+    position: relative;
+    left:900px;
+    bottom:330px;
+  }
+  .logo6{
+    position: relative;
+    left:850px;
+    bottom: 300px;
+  }
+  .li1{
+    position: relative;
+    left:500px;
+    bottom:50px;
+  }
+.p{
+    text-align: center;
+}
+  
+    
